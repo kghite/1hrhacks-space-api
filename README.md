@@ -69,7 +69,7 @@ Run the frontend in development mode:
 
 Build the Docker image containing both components with:
 
-`docker build -t nasa-app .`
+`docker build -f build/Dockerfile -t nasa-app .`
 
 And the container with:
 
